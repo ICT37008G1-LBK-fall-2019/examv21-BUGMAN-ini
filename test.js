@@ -1,6 +1,3 @@
-import axios from 'axios';
-
-//  1)
 let date = new Date();
 let day = date.getDay();
 let month = date.getMonth();
@@ -14,7 +11,6 @@ let mustReject = new Promise((resolve,reject) => {
     },20000);
 });
 
-// 2)
 
     axios.get('https://jsonplaceholder.typicode.com/posts').then(item => {
         let body = document.querySelector('body');
@@ -27,7 +23,6 @@ let mustReject = new Promise((resolve,reject) => {
         body.appendChild(ul)
     })
 
-// 3)
     let regex = /^([a-zA-Z]{5})([1258]{5})([AB]{5})$/;
     let validation = document.querySelector('.validation').textContent;
     var found = validation.match(regex);
@@ -37,7 +32,6 @@ let mustReject = new Promise((resolve,reject) => {
         console.log('undef')
     }
 
-// 4)
     let p = document.querySelector('.firstP').textContent;
     let secondRegex = /([0-9]{4})([0-9]{5})/g;
     let pp = document.querySelector('.secP');
