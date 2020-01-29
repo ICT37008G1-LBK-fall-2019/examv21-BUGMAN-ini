@@ -1,12 +1,12 @@
 {
-    "name": "exam",
+    "name": "gamocda",
     "version": "1.0.0",
-    "description": "nikoloz exam",
+    "description": "chemi exam",
     "main": "test.js",
     "scripts": {
       "build": "webpack --config webpack.config.js --watch"
     },
-    "author": "nikoloz palag",
+    "author": "gepeishniki",
     "license": "MIT",
     "dependencies": {
       "babel": "^6.23.0",
